@@ -1,0 +1,115 @@
+.places {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+article {
+    justify-content: center;
+    width: 390px;
+    height: 370px;
+    padding: 20px;
+    padding-top: 4px;
+    margin: 20px;
+    border: 1px #ff5a5f solid;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+article h2 {
+    font-size: 30px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.price_by_night {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 310px;
+    top: -70px;
+    color: #ff5a5f;
+    border: 4px #ff5a5f solid;
+    min-width: 60px;
+    font-size: 27px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    margin-bottom: -65px;
+    text-align: center;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+
+.max_guest {
+    width: 100px;
+    background: url(../images/icon_group.png) no-repeat;
+    padding-top: 50px;
+    display: flex;
+    margin-right: 5px;
+}
+
+.number_bathrooms {
+    width: 100px;
+    background: url(../images/icon_bath.png) no-repeat;
+    padding-top: 50px;
+    display: flex;
+    margin-left: 5px;
+    text-align: right;
+    left: 50px;
+}
+
+.number_rooms {
+    width: 100px;
+    background: url(../images/icon_bed.png) no-repeat;
+    vertical-align: middle;
+    text-align: middle;
+    text-align: left;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.user {
+    text-align: left;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 4px;
+}
+
+.description {
+    text-align: left;
+}
+
+.text_rooms h4{
+    position: relative;
+    right: 15px;
+}
+
+.text_bath h4{
+    position: relative;
+    right: 15px;
+}
+
+.text_guest h4 {
+
+}
