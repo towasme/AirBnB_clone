@@ -111,14 +111,27 @@ h1 {
     right: 15px;
 }
 
-.text_guest h4 {
-
+ .paw {
+    background: url(../images/paw.svg) no-repeat;
+    height: 8px;
+    width: auto;
 }
 
-.my_home {
-    background: url(../images/icon_bed.png) no-repeat;
-    background: url(../images/icon_bed.png) no-repeat;
-    background: url(../images/icon_bed.png) no-repeat;
+.wifi {
+    background: url(../images/wifi.svg) no-repeat;
+    height: 8px;
+    width: auto;
+}
+
+.tv {
+    background: url(../images/tv.svg) no-repeat;
+    height: 8px;
+    width: auto;
+}
+
+.my_home li {
+    padding: 0px;
+    margin: -49px;
 }
 
 .review {
@@ -169,14 +182,14 @@ li h3 {
     font-size: 14px;
     text-align: left;
     list-style-type: none;
-    justify-content: left;
-    left: -30px;
 }
 
 li p {
     font-size: 12px;
     text-align: left;
     list-style-type: none;
+    margin: 0px;
+    margin-top: 8px;
 }
 
 .amenities {
@@ -191,4 +204,10 @@ li p {
     border-bottom: 1px solid #dddddd;
     width: 390px;
     margin-left: 0px;
+}
+
+ul {
+    margin: 0px;
+    margin-left: -8px;
+    padding: 0px;
 }
