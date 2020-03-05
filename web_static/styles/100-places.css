@@ -115,15 +115,6 @@ h1 {
 
 }
 
-.amenitie {
-    height: auto;
-    border-top: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
-    display: flex;
-    justify-content: right;
-    width: 390px;
-}
-
 .my_home {
     background: url(../images/icon_bed.png) no-repeat;
     background: url(../images/icon_bed.png) no-repeat;
@@ -166,16 +157,38 @@ p {
 .reviews h2{
     margin-top: 40px;
     font-size: 16px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
+    width: 390px;
+    margin-left: 0px;
+    text-align: left;
 }
 
-.review h3 {
+
+li h3 {
     font-size: 14px;
-
+    text-align: left;
+    list-style-type: none;
+    justify-content: left;
+    left: -30px;
 }
 
-.amenities h2{
+li p {
+    font-size: 12px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.amenities {
+    height: auto;
+    text-align: left;
+}
+
+.amenities h2 {
     margin-top: 40px;
     font-size: 16px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
+    width: 390px;
+    margin-left: 0px;
 }
