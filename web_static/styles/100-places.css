@@ -9,7 +9,7 @@
 article {
     justify-content: center;
     width: 390px;
-    height: 600px;
+    height: 670px;
     padding: 20px;
     padding-top: 4px;
     margin: 20px;
@@ -111,27 +111,43 @@ h1 {
     right: 15px;
 }
 
- .paw {
+.paw {
     background: url(../images/paw.svg) no-repeat;
-    height: 8px;
+    height: 16px;
     width: auto;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
 }
 
-.wifi {
+ .wifi {
     background: url(../images/wifi.svg) no-repeat;
-    height: 8px;
+    height: 16px;
     width: auto;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+ .paw p, .wifi p, .tv p {
+    position: relative;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 33px;
 }
 
 .tv {
     background: url(../images/tv.svg) no-repeat;
-    height: 8px;
+    height: 16px;
     width: auto;
-}
-
-.my_home li {
     padding: 0px;
-    margin: -49px;
+    margin: 0px;
+    margin-bottom: 15px;
+
 }
 
 .review {
@@ -140,6 +156,7 @@ h1 {
     display: flex;
     justify-content: left;
     width: 390px;
+    margin-top: -15px;
 }
 
 h5 {
@@ -210,4 +227,8 @@ ul {
     margin: 0px;
     margin-left: -8px;
     padding: 0px;
+}
+
+ul .wifi, ul .paw, ul .tv {
+    margin-left: 10px;
 }
